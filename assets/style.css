@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css2?family=Courgette&family=Lato:ital,wght@1,300&family=Open+Sans:wght@300;600;700;800&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    background-color: #F1B641;
+}
+
+nav {
+    background-color: #E5E5E5;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 22em;
+    height: 3.1em;
+    margin: 1.2em;
+    border-radius: 40px;
+}
+
+.marca-titulo {
+    font-family: 'Courgette', cursive;
+}
+
+.menu-hamburger img {
+    width: 1.8em;
+}
+
+.bag img {
+    width: 1.8em;
+}
+
+main {
+    margin: 1rem;
+}
+
+.produto img {
+    width: 17rem;
+    display: block;
+    margin: 0 auto;
+}
+
+.preco {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.preco h2 {
+    font-size: 2.9em;
+    font-weight: 700;
+    font-family: 'Open Sans', sans-serif;    text-transform: uppercase;
+}
+
+.preco span {
+    font-size: 2.7rem;
+    font-weight: 300;
+    font-family: 'Open Sans', sans-serif;    margin-bottom: 20px;
+}
+
+.ingrediente {
+    height: 6rem;
+}
+
+.ingrediente h3 {
+    letter-spacing: -1.7px;
+    margin-bottom: 5px;
+    font-size: 1.5rem;
+    font-weight: 800;
+    font-family: 'Open Sans', sans-serif;
+    text-transform: uppercase;
+}
+
+.ingrediente p {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 1.4rem;
+}
+
+.descricao {
+    height: 11rem;
+}
+
+.descricao h3 {
+    letter-spacing: -1.7px;
+    margin-bottom: 4px;
+    font-size: 1.5rem;
+    font-weight: 800;
+    font-family: 'Open Sans', sans-serif;
+    text-transform: uppercase;
+}
+
+.descricao p {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 1.4rem;
+}
+
+.bnt-check {
+    display: flex;
+    height: 2rem;
+}
+
+.bnt-jar {
+    margin-left: 50px;
+}
+
+.check-input input{
+    appearance: none;
+    width: 17px;
+    height: 17px;
+    border: 2px solid #262626;
+    margin-right: 3px;
+    border-radius: 10px;
+}
+
+.check-input input:checked {
+    background-color: #262626;
+}
+
+.bnt-quant {
+    background-color: #F1B641;
+    border: 2px solid black;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 22em;
+    height: 3.1em;
+    margin: 1.2em;
+    border-radius: 40px;
+}
+
+.bnt-quant p {
+    font-size: 1.4rem;
+}
+
+.cart {
+    background-color: #262626;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 22em;
+    height: 3.1em;
+    margin: 1.2em;
+    border-radius: 40px;
+    color: #F1B641;
+}
+
+.cart p {
+    font-size: 1.2rem;
+}
+
+button {
+    width: 26.5em;
+    height: 3.7em;
+    margin: 1.3em;
+    border-radius: 40px;
+    margin-bottom: 20px;
+    color: #F1B641;
+    background-color: #262626;
+    text-transform: uppercase;
+}
